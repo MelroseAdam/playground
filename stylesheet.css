@@ -4,9 +4,14 @@ body {
 
 .first-paragraph {
   text-align: center;
+  color: brown;
 }
 
 .interests {
   color: rgb(209, 17, 17);
   font-size: 45px;
+}
+
+.bgc-button {
+  color: blueviolet;
 }
