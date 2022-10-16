@@ -1,24 +1,14 @@
 "use strict";
 
-console.log("Hello World!");
+let darkModeBtn = document.querySelector("#dark-mode");
+// const lightModeBtn = document.querySelector("#light-mode");
 
-let bgcBtn = document.getElementsByClassName("bgc-button");
+let turnOffLights = function () {
+  document.body.classList.toggle("dark-mode");
+  console.log("clicked");
+};
 
-bgcBtn[0].addEventListener("click", function () {
-  bgcBtn[0].style.color = "black";
-});
+darkModeBtn.addEventListener("click", turnOffLights);
+console.log(darkModeBtn);
 
-// document.querySelector('.check').addEventListener('click', function () {
-//     const guess = Number(document.querySelector('.guess').value);
-//     console.log(guess, typeof guess);
-
-// const color = prompt("Red or Blue?");
-// if (color === "Red") {
-//   document.getElementById(".first-paragraph").style.color = "red";
-// } else {
-//   document.getElementById(".first-paragraph").style.color = "blue";
-// }
-
-// let p1 = document.getElementsByClassName("first-paragraph");
-
-// p1 = "Is anything happening?";
+// darkModeBtn.onclick = turnOffLights;

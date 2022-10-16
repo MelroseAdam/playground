@@ -1,10 +1,8 @@
 body {
-  background-color: powderblue;
-}
-
-.first-paragraph {
-  text-align: center;
-  color: brown;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
 }
 
 .interests {
@@ -12,6 +10,12 @@ body {
   font-size: 45px;
 }
 
-.bgc-button {
-  color: blueviolet;
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
 }
