@@ -1,6 +1,10 @@
 body {
   background-color: rgb(20, 20, 20);
   margin: 0px;
+  color: white;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  padding: 10%;
 }
 
 #menu {
